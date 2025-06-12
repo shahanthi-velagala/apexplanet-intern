@@ -12,5 +12,5 @@ This project demonstrates the basics of web development using **HTML**, **CSS**,
 - `index.html` – Main webpage structure
 - `style.css` – Styling and layout
 - `script.js` – JavaScript interaction
-- `image.jpg.jpeg` – Embedded image
+  
 
