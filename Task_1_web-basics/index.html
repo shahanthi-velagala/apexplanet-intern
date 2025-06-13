@@ -1,1 +1,76 @@
-This folder contains files of the project responsive car store webpage
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Store</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🚗 CarStore</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#cars">Cars</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Your Dream Car Awaits</h1>
+      <p>Experience luxury, style, and performance with every ride.</p>
+      <button onclick="showMessage()">Shop Now</button>
+    </div>
+  </section>
+
+  <!-- Cars Section -->
+  <section id="cars" class="cars-section">
+    <h2>🚘 Featured Cars</h2>
+    <div class="car-grid">
+      <div class="car-card">
+        <img src="image1.jpg" alt="BMW X5">
+        <h3>BMW X5</h3>
+        <p>Price: ₹75,00,000</p>
+        <a href="https://www.bmw.in/en/all-models/x-series/X5/2023/bmw-x5-overview.html" target="_blank" class="more-btn">🚗 Know More</a>
+      </div>
+      <div class="car-card">
+        <img src="image2.jpg" alt="Audi Q7">
+        <h3>Audi Q7</h3>
+        <p>Price: ₹80,00,000</p>
+        <a href="https://www.audi.in/in/web/en/models/q7/q7/overview.html" target="_blank" class="more-btn">🚗 Know More</a>
+      </div>
+      <div class="car-card">
+        <img src="image3.jpg" alt="Mercedes GLC">
+        <h3>Mercedes GLC</h3>
+        <p>Price: ₹85,00,000</p>
+        <a href="https://www.mercedes-benz.co.in/passengercars/models/suv/glc/overview.html" target="_blank" class="more-btn">🚗 Know More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>📩 Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> CarStore. All rights reserved.</p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
