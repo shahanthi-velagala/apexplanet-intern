@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apex Planet Task 2</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Apex Planet Web Assignment</h1>
+    </nav>
+  </header>
 
+  <main class="container">
+    <!-- Contact Form -->
+    <section class="contact-section">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+        <p id="formMessage" class="form-msg"></p>
+      </form>
+    </section>
+
+    <!-- To-Do List -->
+    <section class="todo-section">
+      <h2>To-Do List</h2>
+      <div class="todo-container">
+        <input type="text" id="todoInput" placeholder="Add new task..." />
+        <button onclick="addTodo()">Add</button>
+        <ul id="todoList"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Apex Planet Internship</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
