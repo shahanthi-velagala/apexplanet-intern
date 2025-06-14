@@ -2,8 +2,7 @@
 Welcome to my internship repository for the Web Development Internship at Apex Planet. This repository documents my progress and learnings throughout the internship — from basic web development to advanced projects and optimization.
 
 📋 Internship Tasks & Progress
-Task 1: Basics of Web Development
-Built a basic webpage using HTML, CSS, and JavaScript
+                                                                                                                                                                             ✅Task 1: Basics of Web Development Built a basic webpage using HTML, CSS, and JavaScript
 
 Learned about:
 
