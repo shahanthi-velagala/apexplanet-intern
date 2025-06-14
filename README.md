@@ -11,8 +11,25 @@ CSS styling (colors, fonts, margins)
 
 JavaScript basics (alerts, buttons, events)
 
-Task 2: Intermediate HTML, CSS, and JavaScript (In Progress)
- (Coming Soon)
+✅Task 2: Responsive Contact Form & To-Do List Webpage
+
+Built a modern, responsive webpage using HTML, CSS, and JavaScript that includes:
+
+📬 A Contact Form with input validation
+
+✅ A Dynamic To-Do List where users can add and delete tasks
+
+📱 A Responsive layout using Flexbox and CSS Grid
+
+Learned about:
+
+🧱 HTML forms: input types (text, email, submit), labels, structure
+
+🎨 Advanced CSS styling: gradients, shadows, Flexbox, Grid, media queries, and Google Fonts
+
+🧠 JavaScript DOM Manipulation: adding/removing list items, form validation, and event handling
+
+🎯 Responsive design principles for mobile and desktop views
 
 Task 3: Advanced Styling and JavaScript (Pending)
  (Coming Soon)
