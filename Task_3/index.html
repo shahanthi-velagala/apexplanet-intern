@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Apex Planet Quiz & Joke App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz & Joke App</h1>
+  </header>
 
+  <main>
+    <section class="quiz">
+      <h2>Simple Quiz</h2>
+      <form id="quizForm">
+        <div class="question">
+          <p>1. What does CSS stand for?</p>
+          <label><input type="radio" name="q1" value="a"> Cascading Style Sheets</label><br>
+          <label><input type="radio" name="q1" value="b"> Computer Styled Sections</label><br>
+          <label><input type="radio" name="q1" value="c"> Creative Style System</label>
+        </div>
+        <div class="question">
+          <p>2. Which HTML tag is used for JavaScript?</p>
+          <label><input type="radio" name="q2" value="a"> &lt;js&gt;</label><br>
+          <label><input type="radio" name="q2" value="b"> &lt;script&gt;</label><br>
+          <label><input type="radio" name="q2" value="c"> &lt;javascript&gt;</label>
+        </div>
+        <button type="button" onclick="checkAnswers()">Submit Quiz</button>
+        <p id="result"></p>
+      </form>
+    </section>
+
+    <hr>
+
+    <section class="joke-container">
+      <h2>Random Joke Generator</h2>
+      <button onclick="getJoke()">Get a Joke</button>
+      <p id="joke">Click the button to see a joke!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
