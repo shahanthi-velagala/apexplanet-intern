@@ -31,11 +31,11 @@ Learned about:
 
 🎯 Responsive design principles for mobile and desktop views
 
-Task 3: Advanced Styling and JavaScript 
+✅Task 3: Advanced Styling and JavaScript 
 
 🚀 Completed a fun Quiz & Joke Generator web app using HTML, CSS & JavaScript!
 
-✅ Learned DOM manipulation & API integration.
+🧠 Learned DOM manipulation & API integration.
 
 Task 4: Full Project Implementation (Pending)
  (Coming Soon)
