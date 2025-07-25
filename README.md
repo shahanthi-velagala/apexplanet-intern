@@ -37,8 +37,9 @@ Learned about:
 
 🧠 Learned DOM manipulation & API integration.
 
-Task 4: Full Project Implementation (Pending)
- (Coming Soon)
+✅Task 4: Full Project Implementation 
+🚀This repository contains a complete front-end web project built as part of my internship at **Apex Planet**. The project integrates a personal portfolio, a functional to-do list with local storage, and a product listing page with filtering and sorting features. It showcases my skills in HTML, CSS, and JavaScript through a single, interactive, and responsive webpage.
+
 
 Task 5: Final Project and Optimization (Pending)
 (Coming Soon)
