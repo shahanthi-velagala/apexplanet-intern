@@ -1,1 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shahanthi Velagala - Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="profile.jpg" alt="Shahanthi Velagala" class="profile-img" />
+      <h1>Shahanthi Velagala</h1>
+    </div>
+    <nav>
+      <button onclick="showSection('portfolio')">Portfolio</button>
+      <button onclick="showSection('todo')">To-Do List</button>
+      <button onclick="showSection('products')">Product Listing</button>
+    </nav>
+  </header>
 
+  <main>
+    <section id="portfolio" class="content-section active">
+      <h2>About Me</h2>
+      <p>B.Tech student in ECE at Vishnu Institute of Technology (2023–2027). Passionate about web development and problem-solving.</p>
+
+      <h2>Education</h2>
+      <p>Vishnu Institute of Technology, ECE, 2023–2027</p>
+
+      <h2>Skills</h2>
+      <ul>
+        <li>Technical: Java (Basics), C, Python, HTML, CSS, JavaScript</li>
+        <li>Soft Skills: Communication, Time Management, Teamwork, Problem Solving</li>
+      </ul>
+
+      <h2>Certifications</h2>
+      <ul>
+        <li>Python Course – Coursera</li>
+        <li>EduSkills Certifications</li>
+        <li>Internship Certificates (SkillDzire, Brainwave Matrix)</li>
+        <li>Failathon Participation</li>
+        <li>Smart India Hackathon Participation</li>
+      </ul>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:shahanthiv@gmail.com">shahanthiv@gmail.com</a></p>
+    </section>
+
+    <section id="todo" class="content-section">
+      <h2>To-Do List</h2>
+      <input type="text" id="todo-input" placeholder="Add a new task..." />
+      <button onclick="addTask()">Add</button>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <section id="products" class="content-section">
+      <h2>Product Listing</h2>
+      <label>Filter by category:</label>
+      <select id="filter" onchange="filterProducts()">
+        <option value="all">All</option>
+        <option value="clothes">Clothes</option>
+        <option value="electronics">Electronics</option>
+      </select>
+
+      <label>Sort by price:</label>
+      <select id="sort" onchange="filterProducts()">
+        <option value="default">Default</option>
+        <option value="asc">Low to High</option>
+        <option value="desc">High to Low</option>
+      </select>
+
+      <div id="product-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
