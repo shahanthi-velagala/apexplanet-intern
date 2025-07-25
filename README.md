@@ -41,8 +41,10 @@ Learned about:
 🚀This repository contains a complete front-end web project built as part of my internship at **Apex Planet**. The project integrates a personal portfolio, a functional to-do list with local storage, and a product listing page with filtering and sorting features. It showcases my skills in HTML, CSS, and JavaScript through a single, interactive, and responsive webpage.
 
 
-Task 5: Final Project and Optimization (Pending)
-(Coming Soon)
+✅Task 5: Final Project and Optimization 
+📘 Student Study Planner
+🧠 A responsive and dynamic web application to help students plan, organize, and track their study topics by subject.
+
 
 🚀 Tools & Technologies
 HTML5
