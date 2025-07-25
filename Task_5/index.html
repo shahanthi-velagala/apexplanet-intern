@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Study Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📘 Student Study Planner</h1>
+    <button id="toggleTheme">🌙 Dark Mode</button>
+  </header>
 
+  <main>
+    <div class="controls">
+      <input type="text" id="subjectName" placeholder="Enter Subject (e.g., Java)" />
+      <button onclick="addSubject()">Add Subject</button>
+      <input type="text" id="searchInput" placeholder="Search Subject..." />
+    </div>
+
+    <div id="subjectsContainer"></div>
+  </main>
+
+  <footer>
+    <p>Created by Shahanthi Velagala | shahanthiv@gmail.com</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
